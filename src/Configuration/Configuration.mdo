@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f564baaa-78d7-4eb3-b881-d4cdbae00f57">
+  <name>ФинУнивер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фин универ</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e1c61493-20e9-401f-92a2-0af6efe9b71e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="d24c5864-b5f4-4c45-986b-da922c0e305a"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="00929edf-99bb-45e9-ab0e-2cf86ccf93d5"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="7bd763cb-a606-42e4-91fa-3b2964f7ec25"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="027ab178-8bb3-4c07-84bd-b3a5eab5fccb"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="4b2066eb-4f63-4e59-8b2d-0a063a4e31b5"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="03398d41-f2e5-4ac0-b282-2b638452e717"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="48f8830c-c36f-4026-b45e-863396624ca2">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Товары</catalogs>
+  <documents>Document.ЗакупкаТоваров</documents>
+  <reports>Report.Закупки</reports>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладе</accumulationRegisters>
+  <externalDataSources>ExternalDataSource.ВнешнийИсточникДанных1</externalDataSources>
+</mdclass:Configuration>
